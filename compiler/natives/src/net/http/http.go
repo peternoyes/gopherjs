@@ -10,7 +10,7 @@ import (
 	"net/textproto"
 	"strconv"
 
-	"github.com/gopherjs/gopherjs/js"
+	"github.com/peternoyes/gopherjs/js"
 )
 
 var DefaultTransport = func() RoundTripper {

@@ -9,7 +9,7 @@ import (
 	"time"
 	"vendored"
 
-	"github.com/gopherjs/gopherjs/tests/otherpkg"
+	"github.com/peternoyes/gopherjs/tests/otherpkg"
 )
 
 func TestSyntax1(t *testing.T) {

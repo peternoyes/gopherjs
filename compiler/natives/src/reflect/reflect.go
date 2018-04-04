@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/gopherjs/gopherjs/js"
+	"github.com/peternoyes/gopherjs/js"
 )
 
 var initialized = false

@@ -8,10 +8,10 @@ import (
 	"go/types"
 	"strings"
 
-	"github.com/gopherjs/gopherjs/compiler/analysis"
-	"github.com/gopherjs/gopherjs/compiler/astutil"
-	"github.com/gopherjs/gopherjs/compiler/filter"
-	"github.com/gopherjs/gopherjs/compiler/typesutil"
+	"github.com/peternoyes/gopherjs/compiler/analysis"
+	"github.com/peternoyes/gopherjs/compiler/astutil"
+	"github.com/peternoyes/gopherjs/compiler/filter"
+	"github.com/peternoyes/gopherjs/compiler/typesutil"
 )
 
 func (c *funcContext) translateStmtList(stmts []ast.Stmt) {

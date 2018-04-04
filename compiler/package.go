@@ -11,8 +11,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gopherjs/gopherjs/compiler/analysis"
 	"github.com/neelance/astrewrite"
+	"github.com/peternoyes/gopherjs/compiler/analysis"
 	"golang.org/x/tools/go/gcimporter15"
 	"golang.org/x/tools/go/types/typeutil"
 )

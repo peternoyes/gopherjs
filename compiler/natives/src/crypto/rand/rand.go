@@ -5,7 +5,7 @@ package rand
 import (
 	"errors"
 
-	"github.com/gopherjs/gopherjs/js"
+	"github.com/peternoyes/gopherjs/js"
 )
 
 func init() {

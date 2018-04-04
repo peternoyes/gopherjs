@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/gopherjs/gopherjs/js"
+	"github.com/peternoyes/gopherjs/js"
 )
 
 var _ = time.Sleep // Force "time" package to be imported but let time.Time and time.Unix be DCEed since they're not used.

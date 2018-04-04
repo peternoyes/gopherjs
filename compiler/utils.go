@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gopherjs/gopherjs/compiler/analysis"
-	"github.com/gopherjs/gopherjs/compiler/typesutil"
+	"github.com/peternoyes/gopherjs/compiler/analysis"
+	"github.com/peternoyes/gopherjs/compiler/typesutil"
 )
 
 func (c *funcContext) Write(b []byte) (int, error) {

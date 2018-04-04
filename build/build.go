@@ -20,9 +20,9 @@ import (
 	"time"
 
 	"github.com/fsnotify/fsnotify"
-	"github.com/gopherjs/gopherjs/compiler"
-	"github.com/gopherjs/gopherjs/compiler/natives"
 	"github.com/neelance/sourcemap"
+	"github.com/peternoyes/gopherjs/compiler"
+	"github.com/peternoyes/gopherjs/compiler/natives"
 )
 
 type ImportCError struct {
@@ -333,7 +333,7 @@ func parseAndAugment(pkg *build.Package, isTest bool, fileSet *token.FileSet) ([
 					if spec.Name == nil {
 						spec.Name = ast.NewIdent("sync")
 					}
-					spec.Path.Value = `"github.com/gopherjs/gopherjs/nosync"`
+					spec.Path.Value = `"github.com/peternoyes/gopherjs/nosync"`
 				}
 			}
 		}

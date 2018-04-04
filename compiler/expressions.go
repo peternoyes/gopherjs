@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gopherjs/gopherjs/compiler/analysis"
-	"github.com/gopherjs/gopherjs/compiler/astutil"
-	"github.com/gopherjs/gopherjs/compiler/typesutil"
+	"github.com/peternoyes/gopherjs/compiler/analysis"
+	"github.com/peternoyes/gopherjs/compiler/astutil"
+	"github.com/peternoyes/gopherjs/compiler/typesutil"
 )
 
 type expression struct {

@@ -11,7 +11,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/gopherjs/gopherjs/compiler/prelude"
+	"github.com/peternoyes/gopherjs/compiler/prelude"
 	"golang.org/x/tools/go/gcimporter15"
 )
 
